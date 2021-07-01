@@ -10,31 +10,23 @@
            width: 90%;
            border: 20px solid grey;
            margin:90px
+           
           }
           div {
             width: 95%;
             margin-left: auto;
             margin-right: auto;
+            text-align: center;
           }
 
            
-            img {
-            width: 70%;
-            height: auto;
-            }
-
           article{
 
-            width: 30%;
-            float: left;
+            width: 100%;
+            float: none;
           }
 
-          aside{
-            
-            width:70%;
-            float: left;
-          }
-
+        
           header,footer{
             padding: 1em;
             color: white;
@@ -81,7 +73,16 @@
 				right:-140px;
 				top:0px;
 			}
-        </style>
+      
+      #tabla {
+      width: 50%;
+      margin: 0 auto;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+
+    </style>
         
     </head>
 
@@ -128,51 +129,571 @@
 
       <div>
           <section>
-            <h1>Recusos educativos digitales</h1>
-            <p>El porposito del sitio web es el de brindar recursos educativos digitales para dinamizar las estrategias de aprendizaje para la universidad del Estado.
-              El contenido a tratar el de diseño de sitios web, área enfocada a planificar, diseñar, mantener y crear interfaces digitales.
-                          atributos y valores.
-              El diseño web es una actividad que consiste en la planificación, diseño, implementación y mantenimiento de sitios web. No es simplemente la implementación del diseño convencional ya que se abarcan diferentes aspectos como el diseño gráfico web, diseño de interfaz y experiencia de usuario, como la navegabilidad, interactividad, usabilidad, arquitectura de la información; interacción de medios, entre los que podemos mencionar audio, texto, imagen, enlaces, video y la optimización de motores de búsqueda. A menudo muchas personas trabajan en equipos que cubren los diferentes aspectos del proceso de diseño, aunque existen algunos diseñadores independientes que trabajan solos.
-              La unión de un buen diseño con una jerarquía bien elaborada de contenidos, aumenta la eficiencia de la web como canal de comunicación e intercambio
-              de datos, que brinda posibilidades como el contacto directo entre el productor y el consumidor de contenidos.
-              El diseño web ha visto amplia aplicación en los sectores comerciales de Internet especialmente en la World Wide Web. 
-              A menudo la web se utiliza como medio de expresión plástica en sí. Artistas y creadores hacen de las páginas en Internet un medio más para 
-              ofrecer sus producciones y utilizarlas como un canal más de difusión de su obra.
+            <h1>Etiquetas básicas html</h1>
+            <p>HTML es la tecnología fundamental de la World Wide Web y ha ido evolucionando hasta nuestros días. Para escribir código HTML solo necesitamos un editor de texto sencillo. Sin embargo, resulta muy recomendable utilizar algún editor
+              especifico que nos facilite la escritura con funciones como autocompletar validacones de sintaxis, etc.
+
             </p>
             <br>
             <h5>Referencia Bibliografica:</h5>
-            <p>Diseño web. (2021). En Wikipedia, la enciclopedia libre. https://es.wikipedia.org/w/index.php?title=Dise%C3%B1o_web&oldid=136259104</p>
+            <p>E Libro. (s. f.). Recuperado 30 de junio de 2021, de https://elibro-net.bibliotecavirtual.unad.edu.co/es/ereader/unad/106494?page=52</p>
             <br>
           </section>
 
 
           <article>
 
-            <h1>Contenido:</h1>
+            <h1>Introducción a HTML5:</h1>
 
-            <h3>Etiquetas Básicas de HTML, atributos y valores</h3>
-            <h4>Referencia de Atributos HTML</h4>
-            <p>Los elementos en HTML tienen atributos; estos son valores adicionales que configuran los elementos o ajustan su comportamiento de diversas formas para cumplir los criterios de los usuarios.</p>
+          
+            <p>HTML es un lenguaje de marcas, es decir, consta de texto, que define los contenidos reales de la pagina web, y marcas especiales
+              (también conocidas  como etiquetas o tags) que permiten dar "significado" al textoo contenido, así como indicar algún tratamiento especial sobre dicho texto.
+            La idea básica de los lenguajes de marcado es estructurar el contenido mediante dichas marcas o etiquetas (tags) <br>
+            Lo que hace el estándar HTML5 es especificar que marcas deben utilizarse para escribir un documento web y que significa cada una de ellas. De esta forma cualquier
+            navegador sabrá cómo interpretarlas.</p>
+            <h4>Por ejemplo:</h4>
+            <p>Todo documento HTML ha de ir delimiado por la etiqueta de inicio y cierre &lt;html&gt; &lt;/html&gt;. dentro de estas dos etiquetas tendremos
+              dos partes bien diferenciadas: Cabecera (elemento &lt;head&gt; &lt;/head&gt;) y cuerpo (elemento &lt;body&gt; &lt;/body&gt;). Estas son las etiquetas 
+              HTML que encontraremos en cualquier pagina web y que definen su estructura.
+            </p>
             <h5>Referencia Bibliografica:</h5>
-            <p>(Referencia de Atributos HTML - HTML, s. f.)Referencia de Atributos HTML - HTML: Lenguaje de etiquetas de hipertexto | MDN. (s. f.). Recuperado 17 de junio de 2021, de https://developer.mozilla.org/es/docs/Web/HTML/Attributes</p>
+            <p>E Libro. (s. f.). Recuperado 30 de junio de 2021, de https://elibro-net.bibliotecavirtual.unad.edu.co/es/ereader/unad/106494?page=52</p>
+
+            &lt;etiqueta atributo="valor"> texto &lt;/etiqueta>
             
           </article>
 
-          <aside>
-         
-            <div>
-              <h4>Algunas - Referencia de Atributos HTML</h4>
-            <img src="../fase2/1.png">
-            <br><br><br><br><br><br>
-            </div>
+          <h2>Listado de etiquetas en HTML5</h2>
+          <table class="default" id="tabla" name="tabla" width="600" border="8" cellspacing="3" cellpadding="3" style="font-size: 10pt">
+
+            <tr>
+            <th>Etiqueta</th>
+            <th>Función</th>
+            </tr>
+            
+            <tr>
+            <th> &lt;!DOCTYPE></th>
+            <td>Define el tipo de docuemento</td>
+            </tr>
+
+            <tr>
+            <th> &lt;a></th>
+            <td>Define un hipervínculo</td>
+            </tr>
+
+            <tr>
+            <th> &lt;address></th>
+            <td>Define la información de contacto del autor / propietario del documento</td>
+            </tr>
+
+
+            <tr>
+            <th> &lt;area></th>
+            <td>Define un área dentro de un mapa de imagen</td>
+            </tr>
+
+            <tr>
+            <th> &lt;article></th>
+            <td>Define un artículo</td>
+            </tr>
+
+            <tr>
+            <th> &lt;aside></th>
+            <td>Define el contenido lateral del contenedor de una página</td>
+            </tr>
+
+            <tr>
+            <th> &lt;audio></th>
+            <td>Define contenido de sonido</td>
+            </tr>
+
+            <tr>
+            <th> &lt;b></th>
+            <td>Define texto en negrita</td>
+            </tr>
+
+            <tr>
+            <th> &lt;base></th>
+            <td>Especifica la base donde se abrirán todas las URL del documento</td>
+            </tr>
+
+            <tr>
+            <th> &lt;bdi></th>
+            <td>Aísla una parte del texto que puede tener un formato diferente del texto externo</td>
+            </tr>
+
+            <tr>
+            <th> &lt;blockquote></th>
+            <td>	Define una sección que tiene otra fuente</td>
+            </tr>
+
+            <tr>
+            <th> &lt;body></th>
+            <td>Define el cuerpo del documento</td>
+            </tr>
+
+            <tr>
+              <th> &lt;br></th>
+              <td>Define un salto de línea</td>
+            </tr>
+
+            <tr>
+              <th> &lt;button></th>
+              <td>Define un botón clickeable</td>
+            </tr>
+
+            <tr>
+              <th> &lt;canvas></th>
+              <td>Se usa para dibujar gráficos en pantalla</td>
+            </tr>
+
+            <tr>
+              <th> &lt;caption></th>
+              <td>Define el título de una tabla</td>
+            </tr>
+
+            <tr>
+              <th> &lt;cite></th>
+              <td>Define el título de un trabajo</td>
+            </tr>
+
+            <tr>
+              <th> &lt;code></th>
+              <td>Define un trozo de código de programación</td>
+            </tr>
+
+            <tr>
+              <th> &lt;col></th>
+              <td>Especifica las propiedades de la columna para cada columna del elemento &lt;colgroup></td>
+            </tr>
+
+            <tr>
+              <th> &lt;colgroup></th>
+              <td>Especifica un grupo de una o más columnas de una tabla</td>
+            </tr>
+
+            <tr>
+              <th> &lt;command></th>
+              <td>Define un botón command al que un usuario puede invocar</td>
+            </tr>
+
+            <tr>
+              <th> &lt;datalist></th>
+              <td>Especifica en un input una lista pre-definida de opciones</td>
+            </tr>
+
+            <tr>
+              <th> &lt;dd></th>
+              <td>Define la descripción de un ítem en una lista de definición</td>
+            </tr>
+
+            <tr>
+              <th> &lt;del></th>
+              <td>DDefine un texto que ha sido definido en un Mdocument</td>
+            </tr>
+            
+            <tr>
+              <th> &lt;details></th>
+              <td>Define detalles adicionales que el usuario puede ver o esconder</td>
+            </tr>
+
+            <tr>
+              <th> &lt;dfn></th>
+              <td>Define el término de una definición</td>
+            </tr>
+
+            <tr>
+              <th> &lt;dialog></th>
+              <td>Define una caja o ventana de dialogo</td>
+            </tr>
+
+            <tr>
+              <th> &lt;div></th>
+              <td>	Define una sección en un documento</td>
+            </tr>
+
+            <tr>
+              <th> &lt;dl></th>
+              <td>Define una lista de definición</td>
+            </tr>
+
+            <tr>
+              <th> &lt;dt></th>
+              <td>Define un término (un ítem) en una lista de definición</td>
+            </tr>
+
+            <tr>
+              <th> &lt;em></th>
+              <td>Define énfasis en un texto</td>
+            </tr>
+
+            <tr>
+              <th> &lt;embed></th>
+              <td>Define el contenedor de una aplicación externa (no html)</td>
+            </tr>
+
+            <tr>
+              <th> &lt;fieldset></th>
+              <td>Grupo de elementos relacionados en un formulario</td>
+            </tr>
+
+            <tr>
+              <th> &lt;figcaption></th>
+              <td>Define el título para una figura &lt;figure></td>
+            </tr>
+
+            <tr>
+              <th> &lt;figure></th>
+              <td>	Especifica auto-contenido</td>
+            </tr>
+
+            <tr>
+              <th> &lt;footer></th>
+              <td>Define el pie de página de un documento</td>
+            </tr>
+
+            <tr>
+              <th> &lt;form></th>
+              <td>Define un formulario html</td>
+            </tr>
+
+            <tr>
+              <th> &lt;h1> a &lt;h6></th>
+              <td>Define encabezados o títulos</td>
+            </tr>
+
+            <tr>
+              <th> &lt;head></th>
+              <td>Define información hacerca del documento</td>
+            </tr>
+
+            <tr>
+              <th> &lt;header></th>
+              <td>Define la sección de encabezado del docuemnto</td>
+            </tr>
+
+            <tr>
+              <th> &lt;hgroup></th>
+              <td>Grupo de encabezado (&lt;h1> a &lt;6>)</td>
+            </tr>
+
+            <tr>
+              <th> &lt;hr></th>
+              <td>Define un cámbio de temática a partir de una línea dibujada</td>
+            </tr>
+
+            <tr>
+              <th> &lt;html>></th>
+              <td>Define la raíz del documento</td>
+            </tr>
+
+            <tr>
+              <th> &lt;i></th>
+              <td>Define una parte del texto de modo alternativo</td>
+            </tr>
+
+            <tr>
+              <th> &lt;iframe></th>
+              <td>Define un frame en línea</td>
+            </tr>
+
+            <tr>
+              <th> &lt;img></th>
+              <td>Define una imagen</td>
+            </tr>
+
+            <tr>
+              <th> &lt;input></th>
+              <td>	Define un control de entrada de text</td>
+            </tr>
+
+            <tr>
+              <th> &lt;ins></th>
+              <td>Define texto que ha sido insertado en un documento</td>
+            </tr>
+
+            <tr>
+              <th> &lt;kbd></th>
+              <td>Define entrada del teclado</td>
+            </tr>
+
+            <tr>
+              <th> &lt;keygen></th>
+              <td>Define un campo generador de claves para formularios</td>
+            </tr>
+
+            <tr>
+              <th> &lt;label></th>
+              <td>Define el rótulo para un elemento &lt;input></td>
+            </tr>
+
+            <tr>
+              <th> &lt;legend></th>
+              <td>Define un título para los elementos &lt;fieldset>, &lt;figure>, &lt;details></td>
+            </tr>
+
+            <tr>
+              <th> &lt;li></th>
+              <td>Define un ítem de una lista</td>
+            </tr>
+
+            <tr>
+              <th> &lt;link></th>
+              <td>Define la relación entre un documento y un recurso externo (generalmente con hojas de estilo)</td>
+            </tr>
+
+            <tr>
+              <th> &lt;map></th>
+              <td>Define un mapa de imagen del cliente</td>
+            </tr>
+
+            <tr>
+              <th> &lt;mark></th>
+              <td>	Define texto resaltado o marcado</td>
+            </tr>
+
+            <tr>
+              <th> &lt;menu></th>
+              <td>Define la lista de un menú</td>
+            </tr>
+
+            <tr>
+              <th> &lt;meta></th>
+              <td>	Define un metadato de un documento</td>
+            </tr>
+
+            <tr>
+              <th> &lt;meter></th>
+              <td>Define una medida escalar en un rango conocido</td>
+            </tr>
+
+            <tr>
+              <th> &lt;nav></th>
+              <td>Define un link de navegación</td>
+            </tr>
+
+            <tr>
+              <th> &lt;noscript></th>
+              <td>Define un contenido alternativo para los usuarios que no soportan scripts del cliente</td>
+            </tr>
+
+            <tr>
+              <th> &lt;objet></th>
+              <td>Define un objeto embebido</td>
+            </tr>
+
+            <tr>
+              <th> &lt;ol></th>
+              <td>Define una lista ordenada</td>
+            </tr>
+
+            <tr>
+              <th> &lt;optgroup></th>
+              <td>Define un grupo de opciones relacionadas en una lista desplegable</td>
+            </tr>
+
+            <tr>
+              <th> &lt;option></th>
+              <td>Define una opción en una lista desplegable</td>
+            </tr>
+
+            <tr>
+              <th> &lt;output></th>
+              <td>Define el resultado de un cálculo</td>
+            </tr>
+
+            <tr>
+              <th> &lt;p></th>
+              <td>	Define un párrafo</td>
+            </tr>
+
+            <tr>
+              <th> &lt;param></th>
+              <td>	Define un parámetro para un objeto</td>
+            </tr>
+
+            <tr>
+              <th> &lt;pre></th>
+              <td>	Define texto pre-formateado</td>
+            </tr>
+
+            <tr>
+              <th> &lt;progress></th>
+              <td>	Representa el progreso de una tarea en una barra</td>
+            </tr>
+
+            <tr>
+              <th> &lt;q></th>
+              <td>Define una cita corta</td>
+            </tr>
+
+            <tr>
+              <th> &lt;rp></th>
+              <td>	Define que debe mostrar en navegadores que no soportan scripts de ruby</td>
+            </tr>
+
+            <tr>
+              <th> &lt;rt></th>
+              <td>	Define una pronunciación de caracteres</td>
+            </tr>
+
+            <tr>
+              <th> &lt;ruby></th>
+              <td>Define una notación de ruby</td>
+            </tr>
+
+            <tr>
+              <th> &lt;s></th>
+              <td>	Define texto que no es correcto</td>
+            </tr>
+
+            <tr>
+              <th> &lt;samp></th>
+              <td>Define un ejemplo de salida de un programa</td>
+            </tr>
+
+            <tr>
+              <th> &lt;script></th>
+              <td>Define un script del lado cliente</td>
+            </tr>
+
+            <tr>
+              <th> &lt;section></th>
+              <td>Define una sección de un documento</td>
+            </tr>
+
+            <tr>
+              <th> &lt;select></th>
+              <td>Define un drop-down list</td>
+            </tr>
+
+            <tr>
+              <th> &lt;small></th>
+              <td>	Define texto pequeño</td>
+            </tr>
+
+            <tr>
+              <th> &lt;source></th>
+              <td>	Define los recursos para elementos multimedia</td>
+            </tr>
+
+            <tr>
+              <th> &lt;span></th>
+              <td>	Define una pequeña sección de un documento</td>
+            </tr>
+
+            <tr>
+              <th> &lt;strong></th>
+              <td>	Define un texto en negrita</td>
+            </tr>
+
+            <tr>
+              <th> &lt;style></th>
+              <td>	Define un estilo para la información de un documento</td>
+            </tr>
+
+            <tr>
+              <th> &lt;sub></th>
+              <td>	Define un texto que es subíndice</td>
+            </tr>
+
+            <tr>
+              <th> &lt;summary></th>
+              <td>Define un encabezado visible para el elemento &lt;details></td>
+            </tr>
+
+            <tr>
+              <th> &lt;sup></th>
+              <td>Define un texto que es superíndice</td>
+            </tr>
+
+            <tr>
+              <th> &lt;table></th>
+              <td>	Define una tabla</td>
+            </tr>
+
+            <tr>
+              <th> &lt;tbody> </th>
+              <td>	Define el cuerpo de una tabla</td>
+            </tr>
+            
+            <tr>
+              <th> &lt;td> </th>
+              <td>Define una celda en una tabla</td>
+            </tr>
+
+            <tr>
+              <th> &lt;textarea> </th>
+              <td>	Define un control de entrada de múltiples líneas</td>
+            </tr>
+
+            <tr>
+              <th> &lt;tfoot> </th>
+              <td>	Agrupa los footer contenidos en una tabla</td>
+            </tr>
+
+            <tr>
+              <th> &lt;th> </th>
+              <td>	Define una celda de encabezado en una tabla</td>
+            </tr>
+
+            <tr>
+              <th> &lt;thead> </th>
+              <td>	Agrupa los encabezados de una tabla</td>
+            </tr>
+
+            <tr>
+              <th> &lt;time> </th>
+              <td>Define fecha / hora</td>
+            </tr>
+
+            <tr>
+              <th> &lt;title> </th>
+              <td>	Define un título para el documento</td>
+            </tr>
+
+            <tr>
+              <th> &lt;tr> </th>
+              <td>	Define una fila en una tabla</td>
+            </tr>
+
+            <tr>
+              <th> &lt;track> </th>
+              <td>Define texto de la pista para elementos multimedia (vídeo y audio)</td>
+            </tr>
+
+            <tr>
+              <th> &lt;ul> </th>
+              <td>	Define una lista desordenada</td>
+            </tr>
+
+            <tr>
+              <th> &lt;var> </th>
+              <td>	Define una variable</td>
+            </tr>
+
+            <tr>
+              <th> &lt;video> </th>
+              <td>	Define un vídeo o película</td>
+            </tr>
+
+            <tr>
+              <th> &lt;wbr> </th>
+              <td>	Define un posible salto de linea</td>
+            </tr>
+              
+              
+            
+            </table>
+            <br>
+  
           
-          </aside>
         
-         
-          
-        
-          
-        
+            <h5>Referencia Bibliografica:</h5>
+            <p>[Manual] ¿Quieres saber todas las etiquetas de HTML 5 que existen? (2015, julio 16). Brandominus. https://brandominus.com/blog/creatividad/todas-etiquetas-html5/
+
+            </p>
+            <br>
         
       
         </div>
