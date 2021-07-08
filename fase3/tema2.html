@@ -5,117 +5,7 @@
         <meta charset="utf-8" />
         <title>Proyecto de sitio web 2021-2</title>
 
-        <style type="text/css">
-        
-         .box {
-                  
-           width: 60%;
-           border: 20px solid grey;
-           margin:90px
-         
-           
-          }
-
-          .wrapper {
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);
-            grid-gap: 10px;
-           
-          }
-      
-           
-          
-
-            #section{
-              background-color: white;
-              grid-column: 1 / 3;
-              grid-row: 1;
-
-            }
-            #article{
-              background-color: white;
-              grid-column: 1 / 3;
-              grid-row: 2;
-            }
-
-            #aside{
-              background-color:white;
-              grid-column: 3 / 3;
-              grid-row-start: 1;
-              grid-row-end: 3;
-            
-            }
-
-          header,footer{
-            padding: 1em;
-            color: white;
-            background-color: black;
-            clear:left;
-            text-align: center;
-          }
-
-
-   
-      
-        .nav > li {
-          float:left;
-          width:25%;  
-        }
-        * {
-				margin:0px;
-				padding:0px;
-			}
-			
-			#header {
-				margin:auto;
-				width:100%;
-				font-family:Arial, Helvetica, sans-serif;
-			}
-			
-			ul, ol {
-				list-style:none;
-			}
-			
-			.nav > li {
-				float:left;
-       width:20%; 
-			}
-			
-			.nav li a {
-				background-color:#FE2E2E;
-				color:#fff;
-				text-decoration:none;
-				padding:12px 20px;
-				display:block;
-			}
-			
-			.nav li a:hover {
-				background-color:#434343;
-			}
-			
-			.nav li ul {
-				display:none;
-				position:absolute;
-				min-width:140px;
-                                z-index:2;
-			}
-			
-			.nav li:hover > ul {
-				display:block;
-			}
-			
-			.nav li ul li {
-				position:relative;
-			}
-			
-			.nav li ul li ul {
-				right:-140px;
-				top:0px;
-			}
-
-    
-			
-        </style>
+        <link href="miestilo.css" rel="stylesheet">
         
     </head>
 
@@ -163,11 +53,11 @@
       </div>
       <br>  <br>  <br> 
 
-          <div class="wrapper" style="text-align: center; width: 95%; margin-left: auto; margin-right: auto;">
+          <div class="wrapper" style=" width: 95%; margin-left: auto; margin-right: auto;">
 
             <div id="section">
             <section>
-              <h1>Atributos html</h1>
+              <h1 style="text-align: center;">Atributos html</h1><br>
             <p>En HTML las etiquetas se pueden escribir en mayúsculas o minúsculas, indistitamente. El bloque contenido entre una etiqueta de inicio y otra de cierre (o una etiqueta sin emparejar)
               lo llamaremos elemento. Lo normal es que unos elementos estén contenidos dentro de otros elementos. De esta forma se le da estructura al documento.
               Un elemento puede tener una etiqueta con atributos. Un atributo especifica algunas características singulares de un elemento o información adicional. Los atributos se especifican como 
@@ -208,7 +98,7 @@
           
               <div>
                     
-                  <img style="width: 70%;" src="../fase2/eti.png">
+                  <img style="width: 50%;" src="../fase2/eti.png">
                   <br>
                 </div>
             </article>
