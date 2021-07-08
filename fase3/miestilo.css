@@ -1,7 +1,7 @@
 .box {
                       
   width: 100%;
-  border: 5px solid grey;
+  border: 0px solid grey;
   margin:0px
 
   
@@ -37,7 +37,7 @@
 
 }
 
-header,footer{
+header{
   padding: 1em;
   color: white;
   background-color: black;
@@ -45,7 +45,18 @@ header,footer{
   text-align: center;
 }
 
-
+footer{
+  padding: 1em;
+  color: white;
+  background-color: black;
+  clear:left;
+  text-align: center;
+  position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+}
 
 
 .nav > li {
